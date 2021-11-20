@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-anonymous-default-export
 export default function (state = {items: [], token: null, profile: {}}, action) {
     switch (action.type) {
         case "UPDATE_CART":
